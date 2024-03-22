@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONSTERA</title>
+    <link rel="icon" type="image/x-icon" href="CSS-Assignment-3-Images/03_flower.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--  -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+            fontFamily:{
+                header:"Holtwood One SC"
+            },
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Erica+One&family=Holtwood+One+SC&family=Redressed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <img src="./CSS-Assignment-3-Images/03_flowerCut.png" alt="" class="absolute bottom-0 right-0  z-[-1] max-w-[40%] max-auto ">
+    <nav class="flex justify-between m-5">
+        <div class="logo">
+            <img src="CSS-Assignment-3-Images/Logo.svg" alt="">
+        </div>
+        <!-- meanu -->
+        <div class="flex menu gap-6 hidden lg:flex">
+            <ul class="flex gap-20 font-semibold">
+                <li class="underline"><a href="#">Home</a></li>
+                <li><a href="#">Collection</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!-- icon -->
+        <div class="icon">
+            <i class="fa-solid fa-bag-shopping px-5"></i>
+            <i class="fa-regular fa-user px-5"></i>
+            <i class="fa-solid fa-magnifying-glass px-5"></i>
+            <i class="fa-solid fa-bars lg:hidden"></i>
+        </div>
+    </nav>
+    <!-- Detail  -->
+    <section class="h-[50vh] w-1/2 border-green-800 m-2 ">
+        <div>
+            <h1 class="font-header text-6xl lg:text-9xl">MONSTERA</h1>
+        </div>
+        <div>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil omnis ab doloribus vel aut non aspernatur doloremque itaque repudiandae, rerum impedit delectus vitae harum cumque at dolorum quia architecto sint?</li>
+            </ul>
+        </div>
+        <div class="mt-4">
+            <button class="bg-green-900 rounded-full pt-2 pb-2 pr-5 pl-4 text-white font-semibold">DISCOVER <i class="fa-solid fa-greater-than ml-3 "></i></button>
+        </div>
+    </section>
+
+    <footer class="hidden xl:flex mt-28 w-1/2 m-2 items-center gap-6">
+        <div class="flex w-4/3 ">
+            <i class="fa-solid fa-water text-6xl"></i>
+          <div>         
+             <h3 class="font-header">Feeding</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>  
+        </div>
+    </div>
+    <div class="w-4/3 flex">
+      <span class="text-5xl"><i class="fa-regular fa-lightbulb"></i></span>
+      <div class="">
+        <h3 class="font-header ml-3">Light</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="flex">
+        <i class="fa-regular fa-heart text-5xl"></i>
+        <div class="sentance">
+       <h2 class="font-header">Care</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    </div>
+    </footer>
+</div>
+    
+</body>
+</html>
